@@ -26,3 +26,8 @@ body {
     border-left: 1px solid #ccc;
     overflow-y: auto;
 }
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
