@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFC Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="file" id="file-input">
+    <div id="viewer"></div>
+    <div id="property-panel">
+        <h2>Properties</h2>
+        <ul id="properties"></ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/web-ifc-viewer@latest/dist/IFC.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
